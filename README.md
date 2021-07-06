@@ -1,6 +1,6 @@
-Day 1
+##Day 1
 
-1. Fundamentals:
+#Fundamentals:
 Main Screen:
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124643668-4eb34c00-decc-11eb-8e61-c0b6e3154482.png">
 Clicked Toast:
@@ -9,11 +9,11 @@ Clicked Count 3 times:
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124643711-5a9f0e00-decc-11eb-92cc-fd25947756d2.png">
 
 
-2. Calculator:
+#Calculator:
 When typed 3, 1, 1, with discount checked:
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124643015-7e158900-decb-11eb-8f75-479105a33fff.png">
 
-Activities:
+#Activities:
 1. 액티비티 실행:
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124643776-71ddfb80-decc-11eb-90ea-3b0c5ed089b7.png">
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124643283-e06e8980-decb-11eb-82a7-4f0fa725c73f.png">
