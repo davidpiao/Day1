@@ -1,5 +1,5 @@
 package com.example.helloworlds;
-
+//toast, count 보여주는 activity
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;

@@ -21,11 +21,11 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:hint="데이타를 입력하세"
             android:id="@+id/etMsg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="데이타를 입력하세요"
             android:inputType="textPersonName" />
 
         <Button

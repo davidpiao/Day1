@@ -1,4 +1,5 @@
 package com.example.helloworlds;
+//음료주문 activity
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
