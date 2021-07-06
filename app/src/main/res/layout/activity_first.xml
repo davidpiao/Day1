@@ -18,7 +18,7 @@
             android:text="1. 액티비티 실행" />
 
         <EditText
-            android:id="@+id/etMsg"
+            android:id="@+id/sendBackMsg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -49,5 +49,6 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName" />
+
     </LinearLayout>
 </LinearLayout>

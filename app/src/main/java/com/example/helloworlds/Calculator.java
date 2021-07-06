@@ -55,7 +55,7 @@ public class Calculator extends AppCompatActivity {
 
         onCheckbox(view);
 
-        etTotalAmount.setText("결제금액: " + sum);
+        etTotalAmount.setText("결제금액: " + sum + "원");
     }
 
     public void onCheckbox(View view) {

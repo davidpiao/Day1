@@ -1,5 +1,4 @@
 package com.example.helloworlds;
-//음료주문 activity
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,8 +11,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class FirstActivity extends AppCompatActivity {
+import com.example.helloworlds.SecondActivity;
 
+public class FirstActivity extends AppCompatActivity {
     Button b1, b2, b3;
     EditText e1, e2;
     TextView tv1;
@@ -25,31 +25,33 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
 
-        b1 = findViewById(R.id.btnCall);
-        b1.setOnClickListener(new View.OnClickListener(){
+        b1= findViewById(R.id.btnCall);
+        b1.setOnClickListener(new View.OnClickListener() {
             @Override
-                    public void onClick(View v){
+            public void onClick(View v) {
                 callSecondActivity();
             }
         });
 
+
         b2 = findViewById(R.id.btnMsg);
-        e1 = findViewById(R.id.etMsg);
-        b2.setOnClickListener(new View.OnClickListener(){
+        e1 = findViewById(R.id.etMsg2);
+        b2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
                 callSecondActivityWithMsg();
             }
         });
 
         b3 = findViewById(R.id.btnMsg3);
         e2 = findViewById(R.id.etMsg3);
-        b3.setOnClickListener(new View.OnClickListener(){
+        b3.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
                 callSecondActivityWithMsg3();
             }
         });
+
     }
 
     private void callSecondActivityWithMsg3() {
@@ -64,7 +66,7 @@ public class FirstActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void callSecondActivity(){
+    private void callSecondActivity() {
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
     }
@@ -72,10 +74,9 @@ public class FirstActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == 1000){
-            if(requestCode == RESULT_OK){
+        if(requestCode == REQUEST_CODE_1){
+            if(resultCode == RESULT_OK){
                 String msg = data.getStringExtra("msg");
-                tv1.setText(msg);
                 Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
             }
         }
