@@ -2,11 +2,12 @@ Day 1
 
 1. Fundamentals:
 Main Screen:
-<img width="576" alt="image" src="https://user-images.githubusercontent.com/63008958/124642687-152e1100-decb-11eb-8900-58a03206900b.png">
+<img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124643668-4eb34c00-decc-11eb-8e61-c0b6e3154482.png">
 Clicked Toast:
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124642742-2840e100-decb-11eb-954d-78e7504e2bb6.png">
 Clicked Count 3 times:
-<img width="576" alt="image" src="https://user-images.githubusercontent.com/63008958/124642801-37c02a00-decb-11eb-97aa-0feefc9440f5.png">
+<img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124643711-5a9f0e00-decc-11eb-92cc-fd25947756d2.png">
+
 
 2. Calculator:
 When typed 3, 1, 1, with discount checked:
@@ -14,7 +15,7 @@ When typed 3, 1, 1, with discount checked:
 
 Activities:
 1. 액티비티 실행:
-<img width="576" alt="image" src="https://user-images.githubusercontent.com/63008958/124643268-da78a880-decb-11eb-892f-d04cae933efe.png">
+<img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124643776-71ddfb80-decc-11eb-90ea-3b0c5ed089b7.png">
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124643283-e06e8980-decb-11eb-82a7-4f0fa725c73f.png">
 2. 메세지 전송:
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124643359-f4b28680-decb-11eb-9989-48ee1b410288.png">
