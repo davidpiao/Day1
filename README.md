@@ -1,5 +1,8 @@
 #Day 1
 
+0. Hello World!
+<img width="277" alt="image" src="https://user-images.githubusercontent.com/63008958/124995407-4b61c100-e082-11eb-8ddc-fbd324d2c106.png">
+
 1. Fundamentals:
 Main Screen:
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124643668-4eb34c00-decc-11eb-8e61-c0b6e3154482.png">
